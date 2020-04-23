@@ -7,38 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Fairy books</title>
 
-  <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<!-- <link rel="stylesheet" href="css/Bulletinboard.css" /> -->
-	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-  <!-- =======================================================
-    Theme Name: Kelly
-    Theme URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+	
 <style>
-  /*
-    Theme Name: Kelly
-    Theme URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-    Author: BootstrapMade
-    Author URL: https://bootstrapmade.com
-*/
-/* ==== Google font ==== */
+
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700');
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/* === fontawesome === */
 @import url('font-awesome.css');
-
-
-/* ===================================
- General
-==================================== */
-
 *{
 
 	box-sizing:border-box;
@@ -52,31 +31,13 @@ body {
 	line-height:1.6em;
 	overflow-x:hidden;
   background-color:#FF99CC;
-	/* border:solid 10px #F06292 ; */
  }
 
-/* .container{
-	
-	height:1100px;
-	background-image:url(img/boardback.jpeg);
-	background-size: cover;
-	background-repeat:no-repeat;
-
-} */
-
 .page {   
-	/* margin: 50px auto; */
-    /* max-width: 1200px; */
-    /* border: 1px solid #eee; */
     padding: 0;  
     width: 100%;
   	height:100%
 }
-
-/* .contact-area, .mar-bot40, .tab-content {
-    margin-top: 60px;
-} */
-
 #header {
 	overflow: hidden;
 	background-color:#FF99CC;
@@ -248,115 +209,6 @@ body {
 	color:#fff;	
 }
 
-
-/* --- tab-content --- */
-.tab-content {
-	background-color:#fff;
-	margin-top:-100px;
-}
-.tab-pane#profile {
-	border-bottom:0;
-	border-top:0;
-}
-.panel-group {
-  margin-bottom: 0;
-  border-radius: 0;
-  
-}
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-.panel-body h5 {
-	text-transform:uppercase;
-	text-align:center;
-	margin-bottom:20px;	
-}
-.panel-group .panel-heading + .panel-collapse > .panel-body {
-  border-top:0;
-  border-bottom:0;
-  border-top-color:#fff;
-}
-
-.panel-default {	
-	border:0;	
-}
-
-.panel-default .panel-heading {
-	background-color:#FF0066 ;
-	border:0;	
-}
-
-h4.panel-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 18px;
-  text-decoration:none; 
-  text-align:center;
-  text-transform: uppercase;
-  padding:30px;
-  
-}
-h5.panel-title {
-	margin-bottom: 30px;
-	color:#000;
-}
-
-.panel-title > a {
-  color: inherit;
-  text-decoration:none;
-  background-color:#FF0066;
-  padding:10px 15px;
-  color: #fff;
-}
-.panel-collapse {
-	padding-bottom:20px;
-	
-	
-}
-
-.feature1 .feature {
-	padding:50px;
-	text-align:center;
-	background-color:#f9f9f9;	
-	margin-top:35px;
-	margin-bottom:10px;
-}
-.feature h4 {
-	margin-bottom:30px;
-	color:#a9a9a9;
-}
-.feature h4 span {
-	
-	color:#50c0e9;
-}
-.feature .ficon i {
-	border-radius: 50%;
-	background-color:#50c0e9;
-	color:#fff;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;	
-}
-.details_exp p {
-	line-height: 23px;
-	color:#89949B;
-}
-
-.feature .details_exp a {
-	text-decoration:none;
-	color:#fff;
-	background-color:#50c0e9;
-	padding:5px 10px;
-    
-}
-.feature2 .feature {
-	padding:50px;
-	text-align:center;
-	background-color:#f9f9f9;	
-	margin-top:20px;
-}
-
 .download {
 	text-align:center;
 	color:#50c0e9;
@@ -367,101 +219,6 @@ h5.panel-title {
 	
 	color:#1892BF;
 	text-decoration:none;
-}
-
-
-/* --- contact --- */
-
-.tab-pane#contacts {
-	background-color:#fff;
-}
-.details  {
-	margin-top:30px;
-	color:#000;
-}
-.details  h3 {
-	
-	
-	color:#50c0e9;
-	
-}
-.details  a:hover {
-	color:#000;
-	text-decoration:none;
-}
-
-
-/*===========================
-  Portfolio
-============================ */
-/* --- section heading --- */
-.section-header {
-	text-align: center;
-	padding-top:120px;
-	margin:0 auto;
-	font-size:30px;
-}
-.section-header h2 {
-	text-transform: uppercase;
-	font-weight: 700;
-	color:#FF0033 ;
-	padding-bottom:40px;
-}
-.section-header p {
-	color:#FF0033 ;
-	padding-top: 10px;
-	padding-bottom:40px;
-	font-size:30px;
-}
-#section-works {
-	margin-top:-100px;
-	background-color: #fff;
-}
-
-nav#filter a {
-	background-color: #EEE;
-	color:#555;	
-}
-
-nav#filter a:hover, nav#filter a.current {
-	background-color: #50c0e9;
-	color:#fff;
-}
-
-nav#filter {
-	margin-bottom:1.5em;
-}
-
-nav#filter li {
-	display:inline-block;
-	margin:0 0 0 5px;
-}
-nav#filter a {
-	padding: 4px 12px;
-	line-height: 20px;
-	text-decoration: none;
-}
-nav#filter ul {
-	margin-top:30px;
-}
-
-.tab-content > .tab-pane {
-  display: none;
-}
-.tab-content > .active {
-  display: block;
-}
-.scrollup {
-	float:right;
-	font-size:30px;
-	padding:10px;
-	background-color:#50c0e9;
-	color:#fff;
-	margin-top:30px;
-	margin-right:10px;
-}
-.scrollup:hover {	
-	background-color:#a8d324;	
 }
 
 input{
@@ -507,7 +264,6 @@ input{
 								
 						<div class="box">
               <div class="profile_photo">
-								<!-- <img src="img/allfairy.jpg" alt="" class="img-responsive"> -->
 								<div class="section-header">
 									<form action="discussion.php" method="post">
 									 <h2>Share the information!!!!</h2><br>
@@ -526,23 +282,16 @@ input{
 		         
           </ul>
         </header>
-        <!-- /Header -->
       </div>
     </div>
   </div>
  
-    
-            
     <a href="user.php" class="download"><h2>Go back to the top</h2></a>
     
-
     <footer id="footer">
       <div class="footer_copyright">
         Copyright &copy; Kosei Suzuki. All rights reserved.
-        <div class="credits">
-      
-          
-        </div>
+        
       </div>
     </footer>
 

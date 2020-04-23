@@ -35,7 +35,7 @@ $poke= NEW SQL();
 
  elseif(isset($_POST["register"])){
 	
-	// $loginid=$_POST["id"];
+
 	$uname=$_POST["uname"];
 	$email=$_POST["email"];
 	$pass=$_POST["pass"];
@@ -167,7 +167,6 @@ $poke= NEW SQL();
  elseif($_GET['actiontype']=='dele'){
 	
 	$id=$_GET["id"];
-
 		
 	$poke->deletePokemon($id);
  }

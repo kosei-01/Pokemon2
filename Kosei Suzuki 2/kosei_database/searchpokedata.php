@@ -7,7 +7,6 @@ $poke= NEW SQL();
 if(isset($_POST["searchname"])){  
 	$pname=$_POST["pname"];
 	$result=$poke->searchPokemon($pname);
-	//when I call return valuable, we need to call receiver(In this case,$result)
 	$_SESSION['myarr']=$result;
 	
 	header("Location:displaypokedex.php");
@@ -68,9 +67,6 @@ if(isset($_POST["searchname"])){
 	
 	$poke->InsertphysicalBattle($attack,$defence,$hp);
  }
-
-
-
 
 
 ?>

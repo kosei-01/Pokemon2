@@ -1,9 +1,6 @@
 <?php
     session_start();
- 		//  include 'classes/pokesql.php';
-			// $poke= NEW SQL();
-			// $result=$poke->searchPokemon($pname);					
-
+ 		
 ?>
 
 <!DOCTYPE html>
@@ -45,14 +42,12 @@ body {
 	line-height:1.6em;
 	overflow-x:hidden;
 	background-color:#FF99CC;
-	/* border:solid 10px #F06292 ; */
+
  }
 
 
 .page {   
-	/* margin: 50px auto; */
-    /* max-width: 1200px; */
-    /* border: 1px solid #eee; */
+
     padding: 0;  
     width: 100%;
   	height:100%
@@ -232,113 +227,6 @@ body {
 	color:#fff;	
 }
 
-.tab-content {
-	background-color:#fff;
-	margin-top:-100px;
-}
-.tab-pane#profile {
-	border-bottom:0;
-	border-top:0;
-}
-.panel-group {
-  margin-bottom: 0;
-  border-radius: 0;
-  
-}
-.panel-group .panel {
-  margin-bottom: 0;
-  border-radius: 0;
-}
-.panel-body h5 {
-	text-transform:uppercase;
-	text-align:center;
-	margin-bottom:20px;	
-}
-.panel-group .panel-heading + .panel-collapse > .panel-body {
-  border-top:0;
-  border-bottom:0;
-  border-top-color:#fff;
-}
-
-.panel-default {	
-	border:0;	
-}
-
-.panel-default .panel-heading {
-	background-color:#FF0066 ;
-	border:0;	
-}
-
-h4.panel-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 18px;
-  text-decoration:none; 
-  text-align:center;
-  text-transform: uppercase;
-  padding:30px;
-  
-}
-h5.panel-title {
-	margin-bottom: 30px;
-	color:#000;
-}
-
-.panel-title > a {
-  color: inherit;
-  text-decoration:none;
-  background-color:#FF0066;
-  padding:10px 15px;
-  color: #fff;
-}
-.panel-collapse {
-	padding-bottom:20px;
-	
-	
-}
-
-.feature1 .feature {
-	padding:50px;
-	text-align:center;
-	background-color:#f9f9f9;	
-	margin-top:35px;
-	margin-bottom:10px;
-}
-.feature h4 {
-	margin-bottom:30px;
-	color:#a9a9a9;
-}
-.feature h4 span {
-	
-	color:#50c0e9;
-}
-.feature .ficon i {
-	border-radius: 50%;
-	background-color:#50c0e9;
-	color:#fff;
-	width: 80px;
-	height: 80px;
-	line-height: 80px;	
-}
-.details_exp p {
-	line-height: 23px;
-	color:#89949B;
-}
-
-.feature .details_exp a {
-	text-decoration:none;
-	color:#fff;
-	background-color:#50c0e9;
-	padding:5px 10px;
-    
-}
-.feature2 .feature {
-	padding:50px;
-	text-align:center;
-	background-color:#f9f9f9;	
-	margin-top:20px;
-}
-
 .download {
 	text-align:center;
 	color:#50c0e9;
@@ -349,100 +237,6 @@ h5.panel-title {
 	
 	color:#1892BF;
 	text-decoration:none;
-}
-
-
-/* --- contact --- */
-
-.tab-pane#contacts {
-	background-color:#fff;
-}
-
-.details  {
-	margin-top:30px;
-	color:#000;
-}
-.details  h3 {
-	
-	
-	color:#50c0e9;
-	
-}
-.details  a:hover {
-	color:#000;
-	text-decoration:none;
-}
-
-
-/*===========================
-  Portfolio
-============================ */
-/* --- section heading --- */
-.section-header {
-	text-align: center;
-	padding-top:120px;
-	margin:0 auto;
-	font-size:30px;
-}
-
-.section-header img{
-	text-align: center;
-	padding-top:120px;
-	margin:0 auto;
-	font-size:30px;
-
-	
-}
-
-.section-header h2 {
-	text-transform: uppercase;
-	font-weight: 700;
-	color:#FF0033 ;
-	padding-bottom:40px;
-}
-.section-header p {
-	color:#FF0033 ;
-	padding-top: 10px;
-	padding-bottom:40px;
-	font-size:30px;
-}
-#section-works {
-	margin-top:-100px;
-	background-color: #fff;
-}
-
-nav#filter a {
-	background-color: #EEE;
-	color:#555;	
-}
-
-nav#filter a:hover, nav#filter a.current {
-	background-color: #50c0e9;
-	color:#fff;
-}
-
-nav#filter {
-	margin-bottom:1.5em;
-}
-
-nav#filter li {
-	display:inline-block;
-	margin:0 0 0 5px;
-}
-nav#filter a {
-	padding: 4px 12px;
-	line-height: 20px;
-	text-decoration: none;
-}
-nav#filter ul {
-	margin-top:30px;
-}
-
-.tab-content > .tab-pane {
-  display: none;
-}
-.tab-content > .active {
-  display: block;
 }
 
 input{
@@ -501,7 +295,6 @@ input{
 								
 						<div class="box">
               <div class="profile_photo">
-								<!-- <img src="img/allfairy.jpg" alt="" class="img-responsive"> -->
 								<div class="section-header">
 							  
 		<?php
@@ -516,24 +309,7 @@ input{
 						echo"<a href='allpokedata.php?poke_id=$id'>".$pname."</a><br><br>";
               
 				 }
-
-			
-
-      // elseif($result=$poke->searchAbility($abi)){
-
-
-			// } 
-
-			// elseif($result=$poke->searchHeight($height)){
-
-
-			// }
-
-			// elseif($result=$poke->searchWeight($weight)){
-
-
-			// }
-							
+						
   	?>
                 
                </div>
@@ -541,7 +317,7 @@ input{
 						</div> 
           </ul>
         </header>
-        <!-- /Header -->
+     
       </div>
     </div>
   </div>
@@ -563,10 +339,7 @@ input{
     <footer id="footer">
       <div class="footer_copyright">
         Copyright &copy; Kosei Suzuki. All rights reserved.
-        <div class="credits">
-          
-          
-        </div>
+        
       </div>
     </footer>
 
